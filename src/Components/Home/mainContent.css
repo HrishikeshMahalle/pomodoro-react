@@ -1,0 +1,61 @@
+.main-content{
+    flex: 0.75;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    flex: 0.15;
+    width: 100%;
+    border: 5px solid red;
+    align-items: center;
+    display: flex;
+}
+.header .searchbar{
+    width: 30%;
+}
+.header .login-bar{
+    margin-left: auto;
+
+}
+.head-title{
+    flex: 0.1;
+    width: 100%;
+    align-items: center;
+    border:5px solid green;
+}
+.content{
+    border: 5px solid yellow;
+    flex: 0.75;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+.content .sub-content{
+    border: 5px solid white;
+    height: 100%;
+    flex: 0.33;
+    background-color: rgb(215, 234, 252);
+    border-radius: 1rem;
+}
+.content .sub-content .sub-header{
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.content .sub-content .addBtn{
+    text-align: center;
+    width: 100%;
+    
+}
+.content .sub-content .addBtn button{
+    padding: 0.3rem;
+    width: 95%;
+    background-color: lightblue;
+    color: rgb(88, 88, 240);
+    font-size:2rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
